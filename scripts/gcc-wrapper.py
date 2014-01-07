@@ -45,6 +45,8 @@ allowed_warnings = set([
     "return_address.c:62",
     "board-acer-8960.c:942",
     "board-acer-8960.c:990",
+	"msm_rotator.c:1588",
+	"msm_rotator.c:1585",
  ])
 
 # Capture the name of the object file, can find it.

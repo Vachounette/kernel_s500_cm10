@@ -117,7 +117,7 @@ static void z180_cmdwindow_write(struct kgsl_device *device,
 				unsigned int data);
 
 #define Z180_MMU_CONFIG					     \
-	(0x01							     \
+(0x01							     \
 	| (MMU_CONFIG << MH_MMU_CONFIG__RB_W_CLNT_BEHAVIOR__SHIFT)   \
 	| (MMU_CONFIG << MH_MMU_CONFIG__CP_W_CLNT_BEHAVIOR__SHIFT)   \
 	| (MMU_CONFIG << MH_MMU_CONFIG__CP_R0_CLNT_BEHAVIOR__SHIFT)  \

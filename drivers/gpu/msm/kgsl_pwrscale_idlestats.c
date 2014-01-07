@@ -86,7 +86,7 @@ static void idlestats_get_sample(struct msm_idle_stats_device *idledev,
 }
 
 static void idlestats_busy(struct kgsl_device *device,
-			struct kgsl_pwrscale *pwrscale)
+			struct kgsl_pwrscale *pwrscale, unsigned int ignore_idle)
 {
 	struct idlestats_priv *priv = pwrscale->priv;
 	struct kgsl_power_stats stats;
